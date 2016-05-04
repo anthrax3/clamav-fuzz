@@ -11,6 +11,7 @@ int main(int argc, char *argv[])
     cl_engine_compile(engine);
     const char *virusName = NULL;
     long unsigned int scanned = 0;
+    while(__AFL_LOOP(1000))
         cl_scanfile(argv[1], &virusName, &scanned, engine, CL_SCAN_STDOPT);
     cl_engine_free(engine);
 }
