@@ -5,4 +5,4 @@ This repository contains an amalgamation of generated files created while fuzzin
 Downloading this onto a computer with active antivirus will likely freak that antivirus out. It might crash it, or subsequently your computer. Download with caution.
 
 
-https://foxglovesecurity.wordpress.com/?p=775&preview=true
+http://foxglovesecurity.com/2016/06/13/finding-pearls-fuzzing-clamav/ 
